@@ -46,7 +46,7 @@ export default function App() {
           <div className="w-1.5 h-1.5 bg-green-400 rounded-full animate-pulse shadow-[0_0_8px_#4ade80]"></div>
           <span>Sistema Activo</span>
         </div>
-        <span>Neutralizador Molecular</span>
+        <span>Neutralizador De Humo</span>
       </div>
 
       {/* Navegación Principal */}
@@ -97,13 +97,13 @@ export default function App() {
             <div className="space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-700">
               <div className="bg-white p-8 rounded-[2.5rem] shadow-sm border border-stone-100">
                 <h3 className="text-xs font-black uppercase tracking-widest mb-10 flex items-center gap-3 italic">
-                  <PlayCircle size={18} /> Guía de Neutralización
+                  <PlayCircle size={18} /> Guía de uso 
                 </h3>
                 <div className="space-y-12">
                   {[
-                    { title: "Preparación", desc: "Añadir 150ml de agua al sobre. Expulsar el aire y asegurar el cierre hermético." },
-                    { title: "Captura", desc: "Exhalar el humo directamente dentro de la boquilla del sobre abierto." },
-                    { title: "Cierre", desc: "Cerrar y agitar 10 segundos. El rastro molecular desaparece al contacto." }
+                    { title: "Activación", desc: "Añadir 150ml de agua para la Activación del compuesto." },
+                    { title: "infiltración", desc: "Inhalar y depositar el humo en la bolsa (inflar la bolsa)." },
+                    { title: "Neutralización", desc: "Cerrar y agitar 10 segundos. Neutraliza el olor al instante." }
                   ].map((item, i) => (
                     <div key={i} className="flex gap-6 relative italic">
                       {i !== 2 && <div className="absolute left-[15px] top-12 w-[1.5px] h-14 bg-stone-100"></div>}
@@ -146,7 +146,7 @@ export default function App() {
                    <Wind size={80} strokeWidth={0.5} className="text-stone-300 group-hover:scale-110 transition-transform duration-700" />
                    <div className="absolute inset-0 bg-gradient-to-t from-white/20 to-transparent"></div>
                 </div>
-                <h3 className="text-3xl font-black uppercase mb-1 tracking-tighter">Pack x5 Recargas</h3>
+                <h3 className="text-3xl font-black uppercase mb-1 tracking-tighter">kit Inicial x4 Recargas</h3>
                 <p className="text-[10px] text-stone-400 font-bold uppercase tracking-widest mb-6">Máxima discreción garantizada</p>
                 <p className="text-4xl font-black mb-10 tracking-tighter">${CONFIG.precioPack.toLocaleString('es-AR')}</p>
                 <button className="w-full bg-black text-white py-6 rounded-2xl text-[10px] font-black uppercase tracking-[0.2em] shadow-xl shadow-stone-200">
@@ -166,7 +166,7 @@ export default function App() {
         </div>
         <div className="flex flex-col text-right">
           <span className="text-[8px] font-black text-stone-300 uppercase tracking-widest">Protocolo</span>
-          <span className="text-[10px] font-black uppercase mt-1 underline underline-offset-4 decoration-stone-200">#HumoCero</span>
+          <span className="text-[10px] font-black uppercase mt-1 underline underline-offset-4 decoration-stone-200">#nolosa</span>
         </div>
       </footer>
     </div>
