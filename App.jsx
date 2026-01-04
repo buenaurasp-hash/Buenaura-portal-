@@ -7,9 +7,9 @@ import {
 
 const CONFIG = {
   whatsapp: "541138463120", 
-  instagram: "buenaura",
-  precioPack: 19960,
-  mensajeSoporte: "Hola! Necesito asistencia con mi Buen Aura.",
+  instagram: "discrecion.ok",
+  precioPack: 10000,
+  mensajeSoporte: "Hola! Necesito asistencia con mí Buen Aura.",
 };
 
 export default function App() {
