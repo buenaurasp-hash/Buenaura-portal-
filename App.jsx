@@ -105,6 +105,7 @@ export default function App() {
                     { title: "Activación", desc: "Agregar 150 ML de agua y retirar el aire." },
                     { title: "Captura", desc: "Exhala el humo en el interior inflando la bolsa." }
                     { title: "Agitar", desc: "Agitar durante 5 segundos para neutralizar." }
+              
                   ].map((item, i) => (
                     <div key={i} className="flex gap-6 relative italic">
                       {i !== 2 && <div className="absolute left-[15px] top-12 w-[1.5px] h-14 bg-stone-100"></div>}
