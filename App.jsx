@@ -101,9 +101,10 @@ export default function App() {
                 </h3>
                 <div className="space-y-12">
                   {[
-                    { title: "Activación", desc: "Añadir 150ml de agua para la Activación del compuesto." },
-                    { title: "infiltración", desc: "Inhalar y depositar el humo en la bolsa (inflar la bolsa)." },
-                    { title: "Neutralización", desc: "Cerrar y agitar 10 segundos. Neutraliza el olor al instante." }
+                    { title: "Preparacion", desc: "Abrir y verter el compuesto en la bolsa." },
+                    { title: "Activación", desc: "Agregar 150 ML de agua y retirar el aire." },
+                    { title: "Captura", desc: "Exhala el humo en el interior inflando la bolsa." }
+                    { title: "Agitar", desc: "Agitar durante 5 segundos para neutralizar." }
                   ].map((item, i) => (
                     <div key={i} className="flex gap-6 relative italic">
                       {i !== 2 && <div className="absolute left-[15px] top-12 w-[1.5px] h-14 bg-stone-100"></div>}
