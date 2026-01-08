@@ -103,7 +103,7 @@ export default function App() {
                   {[
                     { title: "Preparacion", desc: "Abrir y verter el compuesto en la bolsa." },
                     { title: "Activación", desc: "Agregar 150 ML de agua y retirar el aire." },
-                    { title: "Captura", desc: "Exhala el humo en el interior inflando la bolsa." }
+                    { title: "Captura", desc: "Exhala el humo en el interior inflando la bolsa." },
                     { title: "Agitar", desc: "Agitar durante 5 segundos para neutralizar." }
               
                   ].map((item, i) => (
